@@ -14,7 +14,7 @@ def GetFruitVice(fruit):
 
 def AddFruit(fruit, my_cnx):
   with my_cnx.cursor() as my_cur:
-    my_cur.execute("insert into furit_load_list values ('"+ fruit +"')")
+    my_cur.execute("insert into fruit_load_List values ('"+ fruit +"')")
     return "Added " + fruit
 
 def ShowFruitList(my_cnx):
