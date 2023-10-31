@@ -74,7 +74,7 @@ if streamlit.button("Add fruit"):
 if streamlit.button("show list"):
   ShowFruitList(my_cnx)
 
-if steamlit.button("close connection"):
+if streamlit.button("close connection"):
   my_cnx.close()
   streamlit.text("connection closed")
 
